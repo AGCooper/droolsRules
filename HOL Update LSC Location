@@ -1,0 +1,6 @@
+rule "Change 852.b to LSC Library"
+when
+(TRUE)
+then
+replaceContents "852.c.*" with "OUT_RS_REQ"
+end
